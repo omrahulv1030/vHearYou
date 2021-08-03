@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_vHear",
+  "recognizers": {
+    "en-us": "vHear.en-us.lu",
+    "": "vHear.en-us.lu"
+  }
+}

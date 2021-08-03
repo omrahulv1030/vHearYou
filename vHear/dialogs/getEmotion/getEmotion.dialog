@@ -1,0 +1,39 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "J9JSwh",
+    "name": "getEmotion",
+    "comment": "Get emotion"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "ZBIWie"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "RULSsu"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_RULSsu()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "property": "user.emotion"
+        }
+      ]
+    }
+  ],
+  "generator": "getEmotion.lg",
+  "recognizer": "getEmotion.lu.qna",
+  "id": "getEmotion"
+}

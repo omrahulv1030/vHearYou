@@ -1,0 +1,19 @@
+{
+  "profileName": "vHearUBot",
+  "jobId": "42a65827-7625-47dc-807b-38551874ee83",
+  "projectId": "23010.57156040094",
+  "time": "2021-08-03T11:02:09.107Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: rvaidya5-01 at centralus",
+    "> Creating App Registration ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed after 3 retries. Error: Request failed with status code 401",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"App create failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:269071:25)\\n    at createCustomizeError (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:269076:10)\\n    at BotProjectProvision.createApp (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:270566:17)\\n    at runMicrotasks (<anonymous>)\\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\\n    at async BotProjectProvision.create (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:270682:42)\\n    at async AzurePublisher.asyncProvision (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:271174:34)\"}",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"App create failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:269071:25)\\n    at createCustomizeError (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:269076:10)\\n    at BotProjectProvision.createApp (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:270566:17)\\n    at runMicrotasks (<anonymous>)\\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\\n    at async BotProjectProvision.create (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:270682:42)\\n    at async AzurePublisher.asyncProvision (C:\\\\Users\\\\RAHUL\\\\source\\\\repos\\\\Bot composer\\\\BotFramework-Composer-2.1.0\\\\BotFramework-Composer-2.1.0\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:271174:34)\"}. See provision.vHearUBot.log in your bot folder"
+  ]
+}

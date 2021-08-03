@@ -1,0 +1,12 @@
+> To learn more about the LU file format, read the documentation at
+> https://aka.ms/lu-file-format
+
+@ list Emotion =
+	- Emotion :
+		- How are you feeling today
+
+
+# TextInput_Response_RULSsu
+- I am feeling
+
+@ ml mlEntityName

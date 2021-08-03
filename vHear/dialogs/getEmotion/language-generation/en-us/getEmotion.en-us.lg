@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# TextInput_Prompt_RULSsu()
+[Activity
+    Text = ${TextInput_Prompt_RULSsu_text()}
+]
+
+# TextInput_Prompt_RULSsu_text()
+- How you feeling today ?

@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_getEmotion",
+  "recognizers": {
+    "en-us": "getEmotion.en-us.lu",
+    "": "getEmotion.en-us.lu"
+  }
+}

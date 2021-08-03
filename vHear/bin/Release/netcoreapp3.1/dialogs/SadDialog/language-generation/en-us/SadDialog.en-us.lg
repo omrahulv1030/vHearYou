@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# TextInput_Prompt_vxX2Fz()
+[Activity
+    Text = ${TextInput_Prompt_vxX2Fz_text()}
+]
+
+# TextInput_Prompt_vxX2Fz_text()
+- Felling sad is not an issue. Everyone feels its sometime.
+# SendActivity_V0YrwV()
+[Activity
+    Text = ${SendActivity_V0YrwV_text()}
+]
+
+# SendActivity_V0YrwV_text()
+- I hope you are feeling better now.
